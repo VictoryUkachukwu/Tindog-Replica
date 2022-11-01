@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>REPLICA ONE</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+
+            body    {
+                margin: 0px;
+                padding: 0px;
+            }
+
+            #down   {
+                padding: 0px;
+                font-size: xx-large;
+                font-weight: 900;
+                float: left;
+                margin-left: 5%;
+            }
+
+        nav   {
+            background-color:  rgba(255, 62, 88, 0.918);
+            padding: 6%;
+            margin: 0px
+        }
+
+        ul  {
+             list-style-type: none;
+             margin: 0px;
+             padding: 0;
+             overflow: hidden;
+            color: white;
+        }
+
+        li  {
+            float: right;
+        }
+
+        li a        {
+        display: inline;
+        color: lightgray;
+        text-align: left;
+        margin-right: 30px;
+        padding: 10px;
+        text-decoration: none;
+        font-size: 100%;
+        float: right;
+}
+
+        #height     {
+            font-size: xx-large;
+            font-weight: lighter;
+            color: white;
+            line-height: 1.8;
+            margin-left: 5%;
+        }
+
+       button#a   {
+           border: rgb(36, 33, 36);
+           border-radius: 5px;
+           padding: 10px;
+           background-color: rgb(36, 33, 36);
+            font-size: small;
+            text-align: center;
+           color: rgba(255, 255, 255, 0.829);
+           margin-left: 5%;
+       }
+
+         button  {
+            border: 2px  solid rgba(255, 255, 255, 0.514);
+            border-radius: 5px;
+            padding: 10px;
+            background-color: rgba(255, 62, 88, 0.877);
+            font-size: small;
+            text-align: center;
+            color:  rgba(255, 255, 255, 0.829);
+            margin-left: 1%;
+        }
+
+        a   {
+            text-decoration: none;
+        }
+        
+        p   {
+            padding: 4%;
+        }
+
+        #main  {
+            color: rgba(211, 64, 84, 0.788);
+            margin-left: 13%;
+            padding-left: 5%;
+            font-size: xx-large;
+            letter-spacing: 174px;
+            line-height: 1.8;
+        }
+
+       ul .another    {
+            list-style-type: none;
+             margin: 0px;
+             padding: 0;
+             overflow: hidden;
+        }
+
+        li.another  {
+        display: inline;
+        color: black;
+        font-weight: 900;
+        font-size: large;
+        float: none;
+        margin-left: 13%;
+        padding-left: 5%; 
+        }
+
+        ul .next   {
+            list-style-type: none;
+             margin: 0px;
+             padding: 0;
+             overflow: hidden;
+            color: lightslategray;
+        }
+
+        li.next  {
+        display: inline-block;
+        font-weight: lighter;
+        font-size: small;
+        float: none;
+        margin-left: 4%;
+        padding-left: 5%;
+        line-height: 1.8;
+        }
+
+        #new    {
+            background-color:  rgba(211, 64, 84, 0.788);
+            padding: 8%;
+            margin: 0px;
+        }
+
+        h1  {
+            font-size: xx-large;
+            font-weight: lighter;
+            color: rgba(255, 254, 254, 0.932);
+            text-align: center;
+            padding: 16px;
+        }
+
+        #hello  {
+         text-align: center;
+         font-size: x-small;
+         line-height: 0;
+        }
+
+        h2  {
+            padding: 10px;
+          text-align: center;
+          font-size: x-large;
+          font-weight: lighter;
+        }
+
+        /* table {
+            border-collapse: collapse;
+            width: 20px;
+            margin-top: 2%;
+            margin-left: 40%;
+            text-align: center;
+        }
+
+          th    {
+            border: 1px solid rgb(167, 162, 162);
+            border-spacing: 30px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+              background-color: rgb(243, 236, 236);
+         }
+
+         td, th     {
+             
+         }
+        
+         #nice  {
+             font-size: x-large;
+             margin: 30%;
+         } */
+
+         table {
+            border: 1px solid rgb(167, 162, 162);
+            margin-top: 2%;
+            margin-left: 40%;
+            text-align: center;
+            width: 13%;
+            
+         }
+
+         th     {
+            padding: 12px;
+            background-color: rgb(231, 231, 231);
+            font-size: large;
+            font-weight: 530;
+         }
+
+         td     {
+             font-size: x-small;
+             line-height: 1.9;
+         }
+
+         .hey     {
+             font-size: x-large;
+             font-weight:500;
+         }
+
+         .same  {
+             border-radius: 5px;
+             padding-right: 60px;
+             background-color: rgb(31, 187, 96);
+
+         }
+
+         section    {
+            background-color:  rgba(255, 62, 88, 0.918);
+            padding: 6%;
+            margin: 0px;
+         }
+
+         
+       button#b   {
+           border: rgb(36, 33, 36);
+           border-radius: 5px;
+           padding: 10px;
+           background-color: rgb(36, 33, 36);
+            font-size: small;
+            text-align: center;
+           color: rgba(255, 255, 255, 0.829);
+           margin-left: 41%;
+       }
+
+         button#c  {
+            border: 2px  solid rgba(255, 255, 255, 0.514);
+            border-radius: 5px;
+            padding: 10px;
+            background-color: white;
+            font-size: small;
+            text-align: center;
+            color:  rgba(14, 12, 12, 0.829);
+            margin-left: 1%;
+        }
+
+        #get  {
+            text-align: center;
+            font-size: x-small;
+            padding-top: 70px;
+            margin-bottom: 0px;
+
+        }
+
+
+        </style>
+    </head>
+
+<body>
+
+    <nav>
+<ul>
+    <li id="down">tindog </li>
+    <li><a href="#"></a></li>
+    <li><a href="#"></a></li>
+    <li><a href="http://www.google.com">Download </a></li>
+    <li><a href="http://www.google.com"> Pricing </a></li>
+    <li><a href="http://www.google.com">Contact </a></li>
+</ul>
+
+<h3 id="height">Meet new and <br>interesting dogs nearby.</h3>
+
+<div>
+  <a href="http://www.google.com"><button id="a">&#x25F7 Download</button> </a>
+
+<a href="http://www.google.com"><button> &#x25BA Download</button> </a>
+</div>
+</nav>
+
+<p></p>
+<div id="main">&#x025EF &#x25CE &#x2764</div>
+<ul class="another">
+    <li class="another">Easy to use. </li>
+    <li class="another">Elite Clientele</li>
+    <li class="another">Guaranteed to work.</li>
+</ul>
+
+<ul class="next">
+    <li class="next">
+        <pre>
+            So easy to use, even your dog
+                     could do it.
+        </pre>
+    </li>
+    <li class="next">
+        <pre>
+     We have all the dogs, the
+          greatest dogs.
+        </pre>
+    </li>
+    <li class="next">
+        <pre>
+             Find the love of your dog's life 
+                  or your money back.
+        </pre>
+    </li>
+</ul>
+
+    <p></p>
+    <nav id="new">
+        <h1> I no longer have to sniff other dogs for love. I've <br> found the hottest Corgi on TinDog. Woof.</h1>
+    </nav>
+        <br> <br> <br>
+        <div id="hello">
+            <h2>A Plan for Every Dog's Needs</h2>
+         Simple and affordable price plans for you and your dog.
+        </div>
+
+             <table>
+                 <tr>
+                     <th> Chihuahua</th>
+                 </tr>
+                         <tr>
+                            <td class="hey">Free</td>
+                        </tr>
+                               <tr>
+                                     <td>5 Matches Per Day</td>
+                               </tr>
+                                    <tr>
+                                        <td>10 Messages Per Day</td>
+                                     </tr>
+                                        <tr>
+                                              <td>Unlimited App Usage</td>
+                                      </tr>
+                                            <tr>
+                                                <td><button class="same">Sign Up</button></td>
+                                                <br>
+                                            </tr>
+                </table>
+
+                <table>
+                    <tr>
+                        <th> Labrador</th>
+                    </tr>
+                            <tr>
+                               <td class="hey"> $49 / mo</td>
+                           </tr>
+                                  <tr>
+                                        <td>Unlimited Matches</td>
+                                  </tr>
+                                       <tr>
+                                           <td>Unlimited  Messages</td>
+                                        </tr>
+                                           <tr>
+                                                 <td>Unlimited App Usage</td>
+                                         </tr>
+                                               <tr>
+                                                   <td><button class="same">Sign Up</button></td>
+                                                   <br>
+                                               </tr>
+                   </table>
+
+                   <table>
+                    <tr>
+                        <th> Mastiff</th>
+                    </tr>
+                            <tr>
+                               <td class="hey"> $99 / mo</td>
+                           </tr>
+                           <tr>
+                               <td> Priority Listing</td>
+                           </tr>
+                                  <tr>
+                                        <td>Unlimited Matches</td>
+                                  </tr>
+                                       <tr>
+                                           <td>Unlimited  Messages</td>
+                                        </tr>
+                                           <tr>
+                                                 <td>Unlimited App Usage</td>
+                                         </tr>
+                                               <tr>
+                                                   <td><button class="same">Sign Up</button></td>
+                                                   <br>
+                                               </tr>
+                   </table>
+        <p></p>
+        <section>
+            <h1> Find the True Love of Your Dog's Life <br>Today.</h1>
+            <div>
+                <a href="http://www.google.com"><button id="b">&#x25F7 Download</button> </a>
+              
+              <a href="http://www.google.com"><button id="c"> &#x25BA Download</button> </a>
+              </div>
+        </section>
+
+        
+        <div id="get">
+            &copy Copyright TinDog
+        </div>
+        
+       
+
+</body>
+</html>
